@@ -79,6 +79,7 @@ export default {
   justify-content: space-between;
   padding-left: 24px;
   position: relative;
+  margin: 5px 0;
 }
 
 .card ul li::before{

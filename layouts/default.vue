@@ -13,9 +13,9 @@
 
         <nav>
           <ul>
-            <li><a href="#">ABOUT ME</a></li>
-            <li><a href="#">ACCOUNTS</a></li>
-            <li><a href="#">CONTACT</a></li>
+            <li><router-link to="/" exact>ABOUT ME</router-link></li>
+            <li><router-link to="/account">ACCOUNTS</router-link></li>
+            <li><router-link to="/contact">CONTACT</router-link></li>
           </ul>
         </nav>
 
@@ -24,7 +24,7 @@
     </div>
 
     <footer>
-      <a href="#">
+      <a href="https://twitter.com/potato4d" target="_blank">
         <img src="~/assets/tweet.svg" alt="Twitter">
       </a>
     </footer>
@@ -133,7 +133,7 @@ nav ul li a{
 }
 
 nav ul li a:hover,
-nav ul li a.active{
+nav ul li a.nuxt-link-active{
   color: #fff;
   background: #F06C6C;
 }
