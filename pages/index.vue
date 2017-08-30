@@ -12,24 +12,24 @@
       <h1>Career</h1>
       <ul>
         <li>
-          <span class="career-name">Evelenback<span class="carrer-history-sp">(17/04〜17/10)</span></span>
+          <span class="career-name">ElevenBack<span class="carrer-history-sp">(17/07〜)</span></span>
           <span class="carrer-role">代表</span>
           <span class="carrer-history">(17/07〜)</span>
         </li>
         <li>
-          <span class="career-name">GNEX ltd.<span class="carrer-history-sp">(17/04〜17/10)</span></span>
+          <span class="career-name">GNEX ltd.<span class="carrer-history-sp">(17/01〜)</span></span>
           <span class="carrer-role">エンジニア</span>
           <span class="carrer-history">(17/07〜)</span>
         </li>
         <li>
-          <span class="career-name">Evelenback<span class="carrer-history-sp">(17/04〜17/10)</span></span>
+          <span class="career-name">pixiv inc.<span class="carrer-history-sp">(17/04〜17/07)</span></span>
           <span class="carrer-role">エンジニア</span>
           <span class="carrer-history">(17/04〜17/07)</span>
         </li>
         <li>
-          <span class="career-name">SCOUTER inc.<span class="carrer-history-sp">(17/04〜17/10)</span></span>
+          <span class="career-name">SCOUTER inc.<span class="carrer-history-sp">(16/04〜16/10)</span></span>
           <span class="carrer-role">エンジニア・マネージャ</span>
-          <span class="carrer-history">(17/04〜17/10)</span>
+          <span class="carrer-history">(16/04〜16/10)</span>
         </li>
       </ul>
     </section>
