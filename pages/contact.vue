@@ -50,6 +50,7 @@ if (process.browser) {
 }
 
 export default {
+  transition: 'card',
   data () {
     return {
       isSend: false,
