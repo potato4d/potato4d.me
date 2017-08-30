@@ -19,7 +19,7 @@
         <li>
           <span class="career-name">GNEX ltd.<span class="carrer-history-sp">(17/01〜)</span></span>
           <span class="carrer-role">エンジニア</span>
-          <span class="carrer-history">(17/07〜)</span>
+          <span class="carrer-history">(17/01〜)</span>
         </li>
         <li>
           <span class="career-name">pixiv inc.<span class="carrer-history-sp">(17/04〜17/07)</span></span>
