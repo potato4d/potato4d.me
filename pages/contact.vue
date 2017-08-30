@@ -1,22 +1,31 @@
 <template>
   <div class="card">
+    <div :class="{toast: true, active: isComplete}">
+      <span class="success" v-if="isSuccess">
+        送信が完了しました。
+      </span>
+      <span class="error" v-else>
+        送信に失敗しました。
+      </span>
+    </div>
+
     <section>
-      <form class="" action="index.html" method="post">
+      <form v-on:submit.prevent="doSend">
         <h1>Contact</h1>
 
         <p>
           <label>お名前</label>
-          <input type="text" name="name">
+          <input type="text" name="name" v-model="name" :disabled="isSend">
         </p>
 
         <p>
           <label>メールアドレス</label>
-          <input type="email" name="email">
+          <input type="email" name="email" v-model="email" :disabled="isSend">
         </p>
 
         <p>
           <label>本文</label>
-          <textarea name="body" rows="8" cols="80"></textarea>
+          <textarea name="body" rows="8" v-model="body" :disabled="isSend"></textarea>
         </p>
 
         <div class="submit-area">
@@ -32,21 +41,97 @@
 </template>
 
 <script>
+import axios from 'axios'
+import Vue from 'vue'
+
+if (process.browser) {
+  const Toast = require('vue-easy-toast')
+  Vue.use(Toast)
+}
+
 export default {
+  data () {
+    return {
+      isSend: false,
+      isComplete: false,
+      isSuccess: true,
+      name: '',
+      email: '',
+      body: ''
+    }
+  },
+  methods: {
+    doSend () {
+      this.isSend = true
+      const { name, email, body } = this
+      axios.post(
+        'https://8tqcgu7tvb.execute-api.ap-northeast-1.amazonaws.com/prod/contact',
+        {
+          name,
+          email,
+          body
+        }
+      )
+        .then((res) => {
+          this.isSend = false
+          this.isComplete = true
+          this.isSuccess = true
+        })
+        .catch(() => {
+          this.isSend = false
+          this.isComplete = true
+          this.isSuccess = false
+        })
+    }
+  }
 }
 </script>
 
 <style scoped>
+.toast{
+  position: fixed;
+  left: calc(50vw - 150px);
+  top: 0;
+  width: 300px;
+  height: 50px;
+  background: #fff;
+  box-shadow: 0 3px 5px rgba(0,0,0,0.16);
+  display: none;
+
+  color: #333;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Hiragino Sans, Meiryo, Noto Sans CJK JK;
+}
+
+.toast.active{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: slideIn 5.0s forwards;
+}
+
+.toast .success{
+  color: #409A73;
+}
+
+.toast .error{
+  color: #DD0300;
+}
+
+@keyframes slideIn {
+  0%{ top: -50px }
+  10%{ top: 0px }
+  90%{ top: 0px }
+  100%{ top: -60px }
+}
+
 .card p.caution{
   font-size: 14px;
 }
 
 .card p{
   margin-bottom: 20px;
-}
-
-.card input{
-  padding: 5px 0;
 }
 
 .card p,
@@ -62,7 +147,14 @@ export default {
 .card input,
 .card textarea{
   width: 100%;
+  padding: 5px;
+  font-size: 14px;
   border: solid 1px #e5e5e5;
+}
+
+.card input[disabled],
+.card textarea[disabled]{
+  background: #e0e0e0 !important;
 }
 
 .card .submit-area{
