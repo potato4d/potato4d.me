@@ -31,6 +31,14 @@
   </div>
 </template>
 
+<script>
+/* eslint-disable */
+if (process.browser ){
+  try{Typekit.load({ async: true });}catch(e){}
+}
+/* eslint-enable */
+</script>
+
 <style>
 html {
   font-family: Makinas, "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
