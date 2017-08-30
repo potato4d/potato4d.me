@@ -4,10 +4,14 @@ module.exports = {
   */
   head: {
     title: 'potato4d.me',
+    htmlAttrs: {
+      lang: 'ja'
+    },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: "HANATANI Takuma a.k.a. Potato4d" }
+      { hid: 'description', name: 'description', content: "HANATANI Takuma a.k.a. Potato4d" },
+      { name: 'theme-color', content: '#f06a6a' }
     ],
     link: [
       { rel: 'icon', type: 'image/png', href: '/favicon.png' }

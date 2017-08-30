@@ -2,19 +2,19 @@
   <div class="card">
     <dl>
       <dt>Twitter</dt>
-      <dd><a target="_blank" href="https://twitter.com/potato4d">https://twitter.com/potato4d</a></dd>
+      <dd><a target="_blank" rel="noopener"  href="https://twitter.com/potato4d">https://twitter.com/potato4d</a></dd>
 
       <dt>Facebook</dt>
-      <dd><a target="_blank" href="https://facebook.com/potato4d">https://facebook.com/potato4d</a></dd>
+      <dd><a target="_blank" rel="noopener"  href="https://facebook.com/potato4d">https://facebook.com/potato4d</a></dd>
 
       <dt>GitHub</dt>
-      <dd><a target="_blank" href="https://github.com/potato4d">https://github.com/potato4d</a></dd>
+      <dd><a target="_blank" rel="noopener"  href="https://github.com/potato4d">https://github.com/potato4d</a></dd>
 
       <dt>Qiita</dt>
-      <dd><a target="_blank" href="https://qiita.com/potato4d">https://qiita.com/potato4d</a></dd>
+      <dd><a target="_blank" rel="noopener"  href="https://qiita.com/potato4d">https://qiita.com/potato4d</a></dd>
 
       <dt>Speaker Deck</dt>
-      <dd><a target="_blank" href="https://speakerdeck.com/potato4d">https://speakerdeck.com/potato4d</a></dd>
+      <dd><a target="_blank" rel="noopener"  href="https://speakerdeck.com/potato4d">https://speakerdeck.com/potato4d</a></dd>
     </dl>
   </div>
 </template>

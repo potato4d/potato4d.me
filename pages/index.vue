@@ -39,25 +39,25 @@
         <dt>【登壇】「現代におけるプロダクト開発とPHPを選定するワケ 」</dt>
         <dd>
           <span>PHPカンファレンス2017Kansai</span><br>
-          <span class="link"><a href="https://speakerdeck.com/potato4d/xian-dai-niokerupurodakutokai-fa-tophpwoxuan-ding-suruwake-number-phpkansai" target="_blank">https://speakerdeck.com/potato4d/xian-dai-niokerupurodakutokai-fa-tophpwoxuan-ding-suruwake-number-phpkansai</a></span>
+          <span class="link"><a href="https://speakerdeck.com/potato4d/xian-dai-niokerupurodakutokai-fa-tophpwoxuan-ding-suruwake-number-phpkansai" target="_blank" rel="noopener" >https://speakerdeck.com/potato4d/xian-dai-niokerupurodakutokai-fa-tophpwoxuan-ding-suruwake-number-phpkansai</a></span>
         </dd>
 
         <dt>【執筆】「完全HTTPS化のメリットと極意を大規模Webサービス」</dt>
         <dd>
           <span>ITmedia(@IT)</span><br>
-          <span class="link"><a href="http://www.atmarkit.co.jp/ait/articles/1707/13/news010.html" target="_blank">http://www.atmarkit.co.jp/ait/articles/1707/13/news010.html</a></span>
+          <span class="link"><a href="http://www.atmarkit.co.jp/ait/articles/1707/13/news010.html" target="_blank" rel="noopener" >http://www.atmarkit.co.jp/ait/articles/1707/13/news010.html</a></span>
         </dd>
 
         <dt>【登壇】「Draft.jsによる 統制のとれたテキスト編集の世界」</dt>
         <dd>
           <span>初夏のJavaScript祭 in mixi</span><br>
-          <span class="link"><a href="https://speakerdeck.com/potato4d/draft-dot-jsniyoru-tong-zhi-falsetoretatekisutobian-ji-falseshi-jie-number-jsfes" target="_blank">https://speakerdeck.com/potato4d/draft-dot-jsniyoru-tong-zhi-falsetoretatekisutobian-ji-falseshi-jie-number-jsfes</a></span>
+          <span class="link"><a href="https://speakerdeck.com/potato4d/draft-dot-jsniyoru-tong-zhi-falsetoretatekisutobian-ji-falseshi-jie-number-jsfes" target="_blank" rel="noopener" >https://speakerdeck.com/potato4d/draft-dot-jsniyoru-tong-zhi-falsetoretatekisutobian-ji-falseshi-jie-number-jsfes</a></span>
         </dd>
 
         <dt>【登壇】「あらゆる人のためのフロントエンド」</dt>
         <dd>
           <span>FRONTEND CONFERENCE 2017 基調講演</span><br>
-          <span class="link"><a href="https://speakerdeck.com/potato4d/arayururen-falsetamefalsehurontoendo-number-frontkansai" target="_blank">https://speakerdeck.com/potato4d/arayururen-falsetamefalsehurontoendo-number-frontkansai</a></span>
+          <span class="link"><a href="https://speakerdeck.com/potato4d/arayururen-falsetamefalsehurontoendo-number-frontkansai" target="_blank" rel="noopener" >https://speakerdeck.com/potato4d/arayururen-falsetamefalsehurontoendo-number-frontkansai</a></span>
         </dd>
       </dl>
     </section>

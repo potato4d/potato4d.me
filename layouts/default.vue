@@ -24,7 +24,7 @@
     </div>
 
     <footer>
-      <a href="https://twitter.com/potato4d" target="_blank">
+      <a href="https://twitter.com/potato4d" target="_blank" rel="noopener" >
         <img src="~/assets/tweet.svg" alt="Twitter">
       </a>
     </footer>
