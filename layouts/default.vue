@@ -31,15 +31,19 @@
   </div>
 </template>
 
-<script>
-/* eslint-disable */
-if (process.browser ){
-  try{Typekit.load({ async: true });}catch(e){}
-}
-/* eslint-enable */
-</script>
-
 <style>
+@font-face {
+  font-family: Makinas;
+  font-style: normal;
+  src: url('/fonts/Makinas-Flat-3.otf');
+}
+
+@font-face {
+  font-family: Makinas;
+  font-style: bold;
+  src: url('/fonts/Makinas-Flat-5.otf');
+}
+
 html {
   font-family: Makinas, "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
