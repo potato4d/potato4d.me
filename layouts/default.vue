@@ -180,6 +180,14 @@ footer{
 }
 
 @media (max-width: 460px) {
+  nav ul li{
+    width: 90px;
+  }
+
+  nav ul li a{
+    font-size: 14px;
+  }
+
   .container {
     max-width: calc(100% - 30px);
   }

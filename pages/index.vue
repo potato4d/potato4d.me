@@ -12,22 +12,22 @@
       <h1>Career</h1>
       <ul>
         <li>
-          <span class="career-name">Evelenback</span>
+          <span class="career-name">Evelenback<span class="carrer-history-sp">(17/04〜17/10)</span></span>
           <span class="carrer-role">代表</span>
           <span class="carrer-history">(17/07〜)</span>
         </li>
         <li>
-          <span class="career-name">GNEX ltd.</span>
+          <span class="career-name">GNEX ltd.<span class="carrer-history-sp">(17/04〜17/10)</span></span>
           <span class="carrer-role">エンジニア</span>
           <span class="carrer-history">(17/07〜)</span>
         </li>
         <li>
-          <span class="career-name">Evelenback</span>
+          <span class="career-name">Evelenback<span class="carrer-history-sp">(17/04〜17/10)</span></span>
           <span class="carrer-role">エンジニア</span>
           <span class="carrer-history">(17/04〜17/07)</span>
         </li>
         <li>
-          <span class="career-name">SCOUTER inc.</span>
+          <span class="career-name">SCOUTER inc.<span class="carrer-history-sp">(17/04〜17/10)</span></span>
           <span class="carrer-role">エンジニア・マネージャ</span>
           <span class="carrer-history">(17/04〜17/10)</span>
         </li>
@@ -118,5 +118,29 @@ export default {
   letter-spacing: 1.2px;
   margin-top: 4px;
   margin-bottom: 10px;
+}
+
+.card ul li .carrer-history-sp{
+  display: none;
+}
+
+@media (max-width: 460px) {
+  .card ul li{
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+  }
+
+  .card ul li .career-name{
+    width: 100%;
+  }
+
+  .card ul li .carrer-history{
+    display: none;
+  }
+
+  .card ul li .carrer-history-sp{
+    display: inline-block;
+    margin-left: 10px;
+  }
 }
 </style>
