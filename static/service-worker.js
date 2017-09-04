@@ -1,4 +1,5 @@
 addEventListener('install', (event) => {
+  event.waitUntil( Promise.resolve() )
 })
 
 const doCache = async (req) => {
@@ -13,9 +14,6 @@ const doCache = async (req) => {
     statusText: res.statusText,
     headers: res.headers
   }
-
-  console.log(body)
-
   return new Response(body.value, responseInit)
 }
 

@@ -220,6 +220,6 @@ footer{
 
 <script>
 if (process.browser) {
-  if ('serviceWorker' in navigator) navigator.serviceWorker.register('/service-worker.js').catch(console.error.bind(console))
+  if ('serviceWorker' in navigator && navigator.onLine) navigator.serviceWorker.register('/service-worker.js').catch(console.error.bind(console))
 }
 </script>
