@@ -10,7 +10,7 @@ const { promisify } = require('util')
 const _exec = require('child_process').exec
 const exec = promisify(_exec)
 
-exec(`find ./dist | sed 's/\\.\\/dist\\//\\//g'`)
+exec(`find ./dist | sed 's/\\.\\/dist\\//\\//g' | grep -v 'LICENSE' | grep -v 'README.md' | grep -v 'DS'`)
 .then(({stdout}) => {
   const files = stdout.split('\n').filter((f)=>f)
   const output = `

@@ -1,7 +1,7 @@
-// importScripts('/files.js')
+importScripts('/files.js')
 
 addEventListener('install', (event) => {
-  // event.waitUntil( init() )
+  event.waitUntil( init() )
 })
 
 const init = async () => {
