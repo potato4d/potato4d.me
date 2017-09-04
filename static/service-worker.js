@@ -1,6 +1,13 @@
+// importScripts('/files.js')
+
 addEventListener('install', (event) => {
-  event.waitUntil( Promise.resolve() )
+  // event.waitUntil( init() )
 })
+
+const init = async () => {
+  const cache = await caches.open('cache')
+  return await cache.addAll(targetFiles)
+}
 
 const doCache = async (req) => {
   const res = await fetch(req)
