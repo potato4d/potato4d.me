@@ -1,0 +1,14 @@
+{
+  "short_name": "Potato4d.me",
+  "name": "Potato4d.me",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "692x692",
+      "type": "image/png"
+    }
+  ],
+  "background_color": "#f06a6a",
+  "theme_color": "#f06a6a"
+}
