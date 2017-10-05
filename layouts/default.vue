@@ -25,7 +25,7 @@
 
     <footer>
       <a href="https://twitter.com/potato4d" target="_blank" rel="noopener" >
-        <img src="~/assets/tweet.svg" alt="Twitter">
+        <img src="~/assets/tweet.svg" alt="Twitter" width="30">
       </a>
     </footer>
   </div>
