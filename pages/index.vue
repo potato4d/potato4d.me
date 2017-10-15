@@ -36,9 +36,22 @@
     <section>
       <h1>Latest Activities</h1>
       <dl>
-        <dt>【登壇】「現代におけるプロダクト開発とPHPを選定するワケ 」</dt>
+
+        <dt>【執筆】Vue.js製フレームワークNuxt.jsではじめるUniversalアプリケーション開発</dt>
+        <dd>
+          <span>HTML5 Experts.jp</span><br>
+          <span class="link"><a href="https://html5experts.jp/potato4d/24346/" target="_blank" rel="noopener" >https://html5experts.jp/potato4d/24346/</a></span>
+        </dd>
+
+        <dt>【登壇】「現代におけるプロダクト開発とPHPを選定するワケ 」（再演）</dt>
         <dd>
           <span>PHPカンファレンス2017Kansai</span><br>
+          <span class="link"><a href="https://speakerdeck.com/potato4d/xian-dai-niokerupurodakutokai-fa-tophpwoxuan-ding-suruwake-at-tokyo-number-phpcon2017" target="_blank" rel="noopener" >https://speakerdeck.com/potato4d/xian-dai-niokerupurodakutokai-fa-tophpwoxuan-ding-suruwake-at-tokyo-number-phpcon2017</a></span>
+        </dd>
+
+        <dt>【登壇】「現代におけるプロダクト開発とPHPを選定するワケ 」</dt>
+        <dd>
+          <span>PHPカンファレンス2017(東京)</span><br>
           <span class="link"><a href="https://speakerdeck.com/potato4d/xian-dai-niokerupurodakutokai-fa-tophpwoxuan-ding-suruwake-number-phpkansai" target="_blank" rel="noopener" >https://speakerdeck.com/potato4d/xian-dai-niokerupurodakutokai-fa-tophpwoxuan-ding-suruwake-number-phpkansai</a></span>
         </dd>
 
