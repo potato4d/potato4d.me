@@ -74,6 +74,12 @@
           <span class="link"><a href="https://contributter.potato4d.me" target="_blank" rel="noopener" >https://contributter.potato4d.me</a></span>
         </dd>
 
+        <dt>Qiita Feed Gen</dt>
+        <dd>
+          <span>Qiita private feed rss converter.</span><br>
+          <span class="link"><a href="https://qiita-feed-gen.potato4d.me" target="_blank" rel="noopener" >https://qiita-feed-gen.potato4d.me</a></span>
+        </dd>
+
         <dt>JSLounge</dt>
         <dd>
           <span>「週末の渋谷で一歩ずつステップアップ」をサポートする団体</span><br>
