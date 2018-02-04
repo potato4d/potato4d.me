@@ -6,6 +6,9 @@
         本名は花谷拓磨。大阪出身渋谷在住のWebエンジニア。<br>
         Vue.jsやReact.jsをはじめとしたフロントエンドから、PHPによるサーバーサイド開発、デザイン業務からライター業、はたまたITイベントでのお祭り男までオールマイティーに活動している賑やかしです。
       </p>
+      <p>
+        <br>成果物は主にGitHubにてオープンソースで公開しています。
+      </p>
     </section>
 
     <section>
@@ -13,26 +16,72 @@
       <ul>
         <li>
           <span class="career-name">ElevenBack<span class="carrer-history-sp">(17/07〜)</span></span>
-          <span class="carrer-role">代表</span>
+          <span class="career-role">代表</span>
           <span class="carrer-history">(17/07〜)</span>
         </li>
         <li>
           <span class="career-name">GNEX ltd.<span class="carrer-history-sp">(17/01〜)</span></span>
-          <span class="carrer-role">エンジニア</span>
+          <span class="career-role">エンジニア</span>
           <span class="carrer-history">(17/01〜)</span>
         </li>
         <li>
           <span class="career-name">pixiv inc.<span class="carrer-history-sp">(17/04〜17/07)</span></span>
-          <span class="carrer-role">エンジニア</span>
+          <span class="career-role">エンジニア</span>
           <span class="carrer-history">(17/04〜17/07)</span>
         </li>
         <li>
           <span class="career-name">SCOUTER inc.<span class="carrer-history-sp">(16/04〜16/10)</span></span>
-          <span class="carrer-role">エンジニア・マネージャ</span>
+          <span class="career-role">エンジニア・マネージャ</span>
           <span class="carrer-history">(16/04〜16/10)</span>
         </li>
       </ul>
     </section>
+
+    <section>
+      <h1>Community &amp; Events</h1>
+      <ul>
+        <li>
+          <span class="community-name">FRONTEND CONFERENCE 2017</span>
+          <span class="community-role">Organizer</span>
+        </li>
+        <li>
+          <span class="community-name">vuejs/jp.vuejs.org</span>
+          <span class="community-role">Maintainer</span>
+        </li>
+        <li>
+          <span class="community-name">Vue.js Japan User Group</span>
+          <span class="community-role">Staff</span>
+        </li>
+        <li>
+          <span class="community-name">WordBench Kyoto</span>
+          <span class="community-role">Moderator</span>
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h1>Products</h1>
+      <dl>
+        <dt>SeQueue - Nuxt.js/Ruby on Rails</dt>
+        <dd>
+          <span>フリーランスのための請求書クラウド</span><br>
+          <span class="link"><a href="https://sequeue.jp" target="_blank" rel="noopener" >https://sequeue.jp</a></span>
+        </dd>
+
+        <dt>Contributter - Ruby on Rails</dt>
+        <dd>
+          <span>Let's tweet your contributions.</span><br>
+          <span class="link"><a href="https://contributter.potato4d.me" target="_blank" rel="noopener" >https://contributter.potato4d.me</a></span>
+        </dd>
+
+        <dt>JSLounge</dt>
+        <dd>
+          <span>「週末の渋谷で一歩ずつステップアップ」をサポートする団体</span><br>
+          <span class="link"><a href="https://jslounge.connpass.com/" target="_blank" rel="noopener" >https://jslounge.connpass.com/</a></span>
+        </dd>
+      </dl>
+    </section>
+
     <section>
       <h1>Latest Activities</h1>
       <dl>
@@ -124,12 +173,21 @@ export default {
   width: 100px;
 }
 
-.card ul li .carrer-role{
+.card ul li .career-role{
   flex: 1;
 }
 
 .card ul li .carrer-history{
   width: 105px;
+}
+
+.card ul li .community-name{
+  width: 200px;
+}
+
+.card ul li .community-role{
+  flex: 1;
+  text-align: right;
 }
 
 .card dl dt{
