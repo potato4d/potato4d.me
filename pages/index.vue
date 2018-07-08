@@ -86,6 +86,12 @@
           <span class="link"><a href="https://qiita-feed-gen.potato4d.me" target="_blank" rel="noopener" >https://qiita-feed-gen.potato4d.me</a></span>
         </dd>
 
+        <dt>Nuxt tech book</dt>
+        <dd>
+          <span>Nuxt technical book</span>
+          <span class="link"><a href="https://potato4d.booth.pm/items/824745" target="_blank" rel="noopener" >https://potato4d.booth.pm/items/824745</a></span>
+        </dd>
+
         <dt>JSLounge</dt>
         <dd>
           <span>「週末の渋谷で一歩ずつステップアップ」をサポートする団体</span><br>
@@ -97,42 +103,17 @@
     <section>
       <h1>Latest Activities</h1>
       <dl>
-
-        <dt>【執筆】Vue.js製フレームワークNuxt.jsではじめるUniversalアプリケーション開発</dt>
-        <dd>
-          <span>HTML5 Experts.jp</span><br>
-          <span class="link"><a href="https://html5experts.jp/potato4d/24346/" target="_blank" rel="noopener" >https://html5experts.jp/potato4d/24346/</a></span>
-        </dd>
-
-        <dt>【登壇】「現代におけるプロダクト開発とPHPを選定するワケ 」（再演）</dt>
-        <dd>
-          <span>PHPカンファレンス2017Kansai</span><br>
-          <span class="link"><a href="https://speakerdeck.com/potato4d/xian-dai-niokerupurodakutokai-fa-tophpwoxuan-ding-suruwake-at-tokyo-number-phpcon2017" target="_blank" rel="noopener" >https://speakerdeck.com/potato4d/xian-dai-niokerupurodakutokai-fa-tophpwoxuan-ding-suruwake-at-tokyo-number-phpcon2017</a></span>
-        </dd>
-
-        <dt>【登壇】「現代におけるプロダクト開発とPHPを選定するワケ 」</dt>
-        <dd>
-          <span>PHPカンファレンス2017(東京)</span><br>
-          <span class="link"><a href="https://speakerdeck.com/potato4d/xian-dai-niokerupurodakutokai-fa-tophpwoxuan-ding-suruwake-number-phpkansai" target="_blank" rel="noopener" >https://speakerdeck.com/potato4d/xian-dai-niokerupurodakutokai-fa-tophpwoxuan-ding-suruwake-number-phpkansai</a></span>
-        </dd>
-
-        <dt>【執筆】「完全HTTPS化のメリットと極意を大規模Webサービス」</dt>
-        <dd>
-          <span>ITmedia(@IT)</span><br>
-          <span class="link"><a href="http://www.atmarkit.co.jp/ait/articles/1707/13/news010.html" target="_blank" rel="noopener" >http://www.atmarkit.co.jp/ait/articles/1707/13/news010.html</a></span>
-        </dd>
-
-        <dt>【登壇】「Draft.jsによる 統制のとれたテキスト編集の世界」</dt>
-        <dd>
-          <span>初夏のJavaScript祭 in mixi</span><br>
-          <span class="link"><a href="https://speakerdeck.com/potato4d/draft-dot-jsniyoru-tong-zhi-falsetoretatekisutobian-ji-falseshi-jie-number-jsfes" target="_blank" rel="noopener" >https://speakerdeck.com/potato4d/draft-dot-jsniyoru-tong-zhi-falsetoretatekisutobian-ji-falseshi-jie-number-jsfes</a></span>
-        </dd>
-
-        <dt>【登壇】「あらゆる人のためのフロントエンド」</dt>
-        <dd>
-          <span>FRONTEND CONFERENCE 2017 基調講演</span><br>
-          <span class="link"><a href="https://speakerdeck.com/potato4d/arayururen-falsetamefalsehurontoendo-number-frontkansai" target="_blank" rel="noopener" >https://speakerdeck.com/potato4d/arayururen-falsetamefalsehurontoendo-number-frontkansai</a></span>
-        </dd>
+        <template v-for="activity in activities">
+          <dt :key="activity.title+'dt'">{{activity.title}}</dt>
+          <dd :key="activity.title+'dd'">
+            <span>{{activity.source}}</span><br>
+            <span class="link">
+              <a :href="activity.link" target="_blank" rel="noopener" >
+                {{activity.link}}
+              </a>
+            </span>
+          </dd>
+        </template>
       </dl>
     </section>
   </div>
@@ -140,7 +121,48 @@
 
 <script>
 export default {
-  transition: 'card'
+  transition: 'card',
+  computed: {
+    activities() {
+      return [
+        {
+          title: '【登壇】Vue.js プロジェクトの爆発させかた',
+          source: '市ヶ谷Geek★Night',
+          link: 'https://speakerdeck.com/potato4d/how-to-explosion-vue-dot-js-project'
+        },
+        {
+          title: '【登壇】「結局Nuxt.jsって何がいいの？」に対する回答',
+          source: 'Vue.js meetup #7 メインセッション',
+          link: 'https://slides.com/potato4d/vuejs_meetup7'
+        },
+        {
+          title: '【執筆】Vue.js製フレームワークNuxt.jsではじめるUniversalアプリケーション開発',
+          source: 'HTML5 Experts.jp',
+          link: 'https://html5experts.jp/potato4d/24346/'
+        },
+        {
+          title: '【登壇】「現代におけるプロダクト開発とPHPを選定するワケ 」（再演）',
+          source: 'PHPカンファレンス2017Kansai',
+          link: 'https://speakerdeck.com/potato4d/xian-dai-niokerupurodakutokai-fa-tophpwoxuan-ding-suruwake-at-tokyo-number-phpcon2017'
+        },
+        {
+          title: '【執筆】「完全HTTPS化のメリットと極意を大規模Webサービス」',
+          source: 'ITmedia(@IT)',
+          link: 'http://www.atmarkit.co.jp/ait/articles/1707/13/news010.html'
+        },
+        {
+          title: '【登壇】「Draft.jsによる 統制のとれたテキスト編集の世界」',
+          source: '初夏のJavaScript祭 in mixi',
+          link: 'https://speakerdeck.com/potato4d/draft-dot-jsniyoru-tong-zhi-falsetoretatekisutobian-ji-falseshi-jie-number-jsfes'
+        },
+        {
+          title: '【登壇】「あらゆる人のためのフロントエンド」',
+          source: 'FRONTEND CONFERENCE 2017 基調講演',
+          link: 'https://speakerdeck.com/potato4d/arayururen-falsetamefalsehurontoendo-number-frontkansai'
+        }
+      ]
+    }
+  }
 }
 </script>
 
