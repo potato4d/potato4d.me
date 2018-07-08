@@ -13,21 +13,10 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
-    "@nuxtjs/pwa": "^2.0.4",
+    "@nuxtjs/pwa": "^2.0.8",
     "axios": "^0.16.2",
-    "nuxt": "^1.0.0-rc3",
+    "nuxt": "^1.4.1",
     "vue-awesome": "^2.3.1",
     "vue-easy-toast": "^1.0.2"
-  },
-  "devDependencies": {
-    "babel-eslint": "^7.2.3",
-    "eslint": "^4.3.0",
-    "eslint-config-standard": "^10.2.1",
-    "eslint-loader": "^1.9.0",
-    "eslint-plugin-html": "^3.1.1",
-    "eslint-plugin-import": "^2.7.0",
-    "eslint-plugin-node": "^5.1.1",
-    "eslint-plugin-promise": "^3.5.0",
-    "eslint-plugin-standard": "^3.0.1"
   }
 }
