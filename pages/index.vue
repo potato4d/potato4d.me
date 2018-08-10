@@ -4,7 +4,7 @@
       <h1>Biography</h1>
       <p>
         本名は花谷拓磨。大阪出身渋谷在住のWebエンジニア。<br>
-        Vue.jsやReact.jsをはじめとしたフロントエンドから、PHPによるサーバーサイド開発、デザイン業務からライター業、はたまたITイベントでのお祭り男までオールマイティーに活動している賑やかしです。
+        Vue.jsやReact.jsをはじめとしたフロントエンドから、PHPによるサーバーサイド開発、デザインからライター業、はたまたITイベントでのお祭り男までオールマイティーに活動している賑やかしです。
       </p>
       <p>
         <br>成果物は主にGitHubにてオープンソースで公開しています。
@@ -38,19 +38,27 @@
     </section>
 
     <section>
-      <h1>Community &amp; Events</h1>
+      <h1>Community &amp; Events &amp; OSS</h1>
       <ul>
         <li>
           <span class="community-name">FRONTEND CONFERENCE 2017</span>
           <span class="community-role">Organizer</span>
         </li>
         <li>
-          <span class="community-name">vuejs/jp.vuejs.org</span>
-          <span class="community-role">Maintainer</span>
+          <span class="community-name">JSLounge</span>
+          <span class="community-role">Organizer</span>
         </li>
         <li>
           <span class="community-name">Vue.js Japan User Group</span>
           <span class="community-role">Staff</span>
+        </li>
+        <li>
+          <span class="community-name">Vue.js Fes Japan 2018</span>
+          <span class="community-role">Staff</span>
+        </li>
+        <li>
+          <span class="community-name">vuejs/jp.vuejs.org</span>
+          <span class="community-role">Maintainer</span>
         </li>
         <li>
           <span class="community-name">WordBench Kyoto</span>
@@ -62,6 +70,12 @@
     <section>
       <h1>Products</h1>
       <dl>
+        <dt>Internet programming - DTP Design / Writing</dt>
+        <dd>
+          <span>C94 Doujin book</span><br>
+          <span class="link"><a href="https://connpassport.com/" target="_blank" rel="noopener" >https://connpassport.com/</a></span>
+        </dd>
+
         <dt>connpassport - Nuxt.js / AWS Lambda</dt>
         <dd>
           <span>Unofficial connpass mobile acceptance system.</span><br>
@@ -86,13 +100,13 @@
           <span class="link"><a href="https://qiita-feed-gen.potato4d.me" target="_blank" rel="noopener" >https://qiita-feed-gen.potato4d.me</a></span>
         </dd>
 
-        <dt>Nuxt tech book</dt>
+        <dt>Nuxt tech book - Writing</dt>
         <dd>
           <span>Nuxt technical book</span>
           <span class="link"><a href="https://potato4d.booth.pm/items/824745" target="_blank" rel="noopener" >https://potato4d.booth.pm/items/824745</a></span>
         </dd>
 
-        <dt>JSLounge</dt>
+        <dt>JSLounge - Event Organize</dt>
         <dd>
           <span>「週末の渋谷で一歩ずつステップアップ」をサポートする団体</span><br>
           <span class="link"><a href="https://jslounge.connpass.com/" target="_blank" rel="noopener" >https://jslounge.connpass.com/</a></span>
