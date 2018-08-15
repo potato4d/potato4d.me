@@ -140,6 +140,11 @@ export default {
     activities() {
       return [
         {
+          title: '【査読】Vue.js 入門',
+          source: '技術評論社',
+          link: 'https://www.amazon.co.jp/dp/4297100916'
+        },
+        {
           title: '【登壇】Vue.js プロジェクトの爆発させかた',
           source: '市ヶ谷Geek★Night',
           link: 'https://speakerdeck.com/potato4d/how-to-explosion-vue-dot-js-project'
