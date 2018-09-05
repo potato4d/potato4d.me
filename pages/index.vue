@@ -73,7 +73,6 @@
         <dt>Internet programming - DTP Design / Writing</dt>
         <dd>
           <span>C94 Doujin book</span><br>
-          <span class="link"><a href="https://connpassport.com/" target="_blank" rel="noopener" >https://connpassport.com/</a></span>
         </dd>
 
         <dt>connpassport - Nuxt.js / AWS Lambda</dt>
