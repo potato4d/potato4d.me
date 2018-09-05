@@ -140,6 +140,11 @@ export default {
     activities() {
       return [
         {
+          title: '【執筆】Nuxt.js ビギナーズガイド',
+          source: 'C&R研究所',
+          link: 'https://www.amazon.co.jp/dp/4863542569'
+        },
+        {
           title: '【査読】Vue.js 入門',
           source: '技術評論社',
           link: 'https://www.amazon.co.jp/dp/4297100916'
