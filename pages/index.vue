@@ -123,7 +123,7 @@
             <span>{{activity.source}}</span><br>
             <span class="link">
               <a :href="activity.link" target="_blank" rel="noopener" >
-                {{activity.link}}
+                {{activity.show_link || activity.link}}
               </a>
             </span>
           </dd>
@@ -142,12 +142,14 @@ export default {
         {
           title: '【執筆】Nuxt.js ビギナーズガイド',
           source: 'C&R研究所',
-          link: 'https://www.amazon.co.jp/dp/4863542569'
+          show_link: 'https://www.amazon.co.jp/gp/product/4863542569/',
+          link: 'https://amzn.to/2Qol7eZ'
         },
         {
           title: '【査読】Vue.js 入門',
           source: '技術評論社',
-          link: 'https://www.amazon.co.jp/dp/4297100916'
+          show_link: 'https://www.amazon.co.jp/gp/product/4297100916/',
+          link: 'https://amzn.to/2Oric3P'
         },
         {
           title: '【登壇】Vue.js プロジェクトの爆発させかた',
