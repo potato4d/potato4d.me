@@ -20,7 +20,7 @@
           <span class="carrer-history">(17/07〜)</span>
         </li>
         <li>
-          <span class="career-name">Increments<span class="carrer-history-sp">(18/03〜18/10)</span></span>
+          <span class="career-name">Increments inc.<span class="carrer-history-sp">(18/03〜18/10)</span></span>
           <span class="career-role">エンジニア(subcontractor)</span>
           <span class="carrer-history">(18/03〜18/10)</span>
         </li>
