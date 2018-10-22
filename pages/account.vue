@@ -11,7 +11,7 @@
       <dd><a target="_blank" rel="noopener"  href="https://github.com/potato4d">https://github.com/potato4d</a></dd>
 
       <dt>Mastodon</dt>
-      <dd><a rel="me noopener" target="_blank" href="https://ap.magitek-telescope.im/@potato4d">Mastodon</a></dd>
+      <dd><a rel="me noopener" target="_blank" href="https://ap.magitek-telescope.im/@potato4d">https://ap.magitek-telescope.im/@potato4d</a></dd>
 
       <dt>Qiita</dt>
       <dd><a target="_blank" rel="noopener"  href="https://qiita.com/potato4d">https://qiita.com/potato4d</a></dd>
