@@ -1,9 +1,7 @@
 <template>
   <div>
     <div class="main">
-      <header>
-        <img src="~/assets/icon.jpg" alt="" class="icon">
-      </header>
+      <header><img src="~/assets/icon.jpg" alt="" class="icon" /></header>
 
       <div class="container">
         <div class="title">
@@ -19,13 +17,13 @@
           </ul>
         </nav>
 
-        <nuxt/>
+        <nuxt />
       </div>
     </div>
 
     <footer>
-      <a href="https://twitter.com/potato4d" target="_blank" rel="noopener" >
-        <img src="~/assets/tweet.svg" alt="Twitter" width="30">
+      <a href="https://twitter.com/potato4d" target="_blank" rel="noopener">
+        <img src="~/assets/tweet.svg" alt="Twitter" width="30" />
       </a>
     </footer>
   </div>
@@ -44,17 +42,24 @@
   src: url('/fonts/Makinas-Flat-5.otf');
 }
 
-.card-enter-active{
+.card-enter-active {
   animation: card-in 0.4s;
 }
 
 @keyframes card-in {
-  0%{ transform: translate(0, 10px); opacity: 0.0}
-  100%{ transform: translate(0, 0); opacity: 1.0}
+  0% {
+    transform: translate(0, 10px);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
 }
 
 html {
-  font-family: Makinas, "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: Makinas, 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   font-size: 16px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
@@ -62,23 +67,25 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
-  background: #F9F9F9;
+  background: #f9f9f9;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: border-box;
   margin: 0;
 }
 
-header{
+header {
   width: 100%;
   height: 130px;
-  background: #F06A6A;
+  background: #f06a6a;
   border-bottom: solid 20px #fff;
   position: relative;
 }
 
-header .icon{
+header .icon {
   width: 134px;
   height: 134px;
   border-radius: 50%;
@@ -88,32 +95,32 @@ header .icon{
   bottom: -67px;
 }
 
-.main{
+.main {
   width: 100%;
   min-height: calc(100vh - 60px);
 }
 
-.title{
+.title {
   margin-top: 65px;
   text-align: center;
-  letter-spacing: 1.0px;
+  letter-spacing: 1px;
 }
 
-.title h1{
-  color: #D80000;
+.title h1 {
+  color: #d80000;
   font-size: 40px;
-  line-height: 1.0;
+  line-height: 1;
   font-weight: normal;
 }
 
-.title p{
-  color: #946F6F;
+.title p {
+  color: #946f6f;
   font-size: 16px;
   letter-spacing: 2px;
   margin: 10px 0 5px;
 }
 
-nav ul{
+nav ul {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
@@ -122,7 +129,7 @@ nav ul{
   list-style: none;
 }
 
-nav ul li{
+nav ul li {
   width: 126px;
   height: 30px;
   border-radius: 4px;
@@ -135,7 +142,7 @@ nav ul li{
   overflow: hidden;
 }
 
-nav ul li a{
+nav ul li a {
   color: #fff;
   font-size: 16px;
   text-decoration: none;
@@ -148,71 +155,71 @@ nav ul li a{
   transition: all 0.1s ease-out;
 }
 
-nav ul li a{
-  color: #D80000;
+nav ul li a {
+  color: #d80000;
   background: #fff;
 }
 
 nav ul li a:hover,
-nav ul li a.nuxt-link-active{
+nav ul li a.nuxt-link-active {
   color: #fff;
-  background: #F06C6C;
+  background: #f06c6c;
 }
 
-.container{
+.container {
   max-width: 460px;
   margin: 0 auto;
 }
 
-.card{
+.card {
   margin: 20px 0;
   padding: 10px;
   background: #fff;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
 }
 
-.card p{
+.card p {
   font-size: 16px;
   line-height: 1.6;
   letter-spacing: 1.6px;
 }
 
-section h1{
-  color: #D80000;
+section h1 {
+  color: #d80000;
   font-size: 18px;
-  letter-spacing: 1.0px;
-  border-bottom: solid 2px #D80000;
+  letter-spacing: 1px;
+  border-bottom: solid 2px #d80000;
   font-weight: normal;
   margin-top: 10px;
   margin-bottom: 15px;
 }
 
-section:first-child h1{
+section:first-child h1 {
   margin-top: 0;
 }
 
-footer{
+footer {
   width: 100%;
   height: 60px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #4F2929;
+  background: #4f2929;
 }
 
 @media (max-width: 460px) {
-  nav ul li{
+  nav ul li {
     width: 90px;
   }
 
-  nav ul li a{
+  nav ul li a {
     font-size: 14px;
   }
 
   .container {
     max-width: calc(100% - 30px);
   }
-  footer{
+  footer {
     height: 50px;
   }
 }

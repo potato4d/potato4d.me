@@ -1,20 +1,23 @@
 {
   "name": "potato4d.me",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Nuxt.js project",
   "author": "Takuma Hanatani <mail@potato4d.me>",
   "private": true,
   "scripts": {
     "dev": "nuxt",
-    "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "format": "prettier './app/**/*.{js,vue}' --write"
   },
   "dependencies": {
     "@nuxtjs/pwa": "^2.0.8",
-    "axios": "^0.16.2",
-    "nuxt": "^2.0.0",
-    "vue-awesome": "^2.3.1",
-    "vue-easy-toast": "^1.0.2"
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {
+    "prettier": "^1.15.2"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true
   }
 }
