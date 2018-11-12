@@ -9,33 +9,8 @@
       </span>
     </div>
 
-    <section>
-      <form v-on:submit.prevent="doSend">
-        <h1>Contact</h1>
-
-        <p>
-          <label>お名前</label>
-          <input type="text" name="name" v-model="name" :disabled="isSend">
-        </p>
-
-        <p>
-          <label>メールアドレス</label>
-          <input type="email" name="email" v-model="email" :disabled="isSend">
-        </p>
-
-        <p>
-          <label>本文</label>
-          <textarea name="body" rows="8" v-model="body" :disabled="isSend"></textarea>
-        </p>
-
-        <div class="submit-area">
-          <button type="submit" name="button">
-            <span>
-              送信
-            </span>
-          </button>
-        </div>
-      </form>
+    <section style='text-align: center'>
+      mail@potato4d.me までご連絡ください。
     </section>
   </div>
 </template>
