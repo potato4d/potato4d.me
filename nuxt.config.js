@@ -1,4 +1,5 @@
-module.exports = {
+export default {
+  srcDir: 'app',
   /*
   ** Headers of the page
   */
@@ -27,7 +28,5 @@ module.exports = {
   */
   modules: [
     '@nuxtjs/pwa'
-  ],
-  build: {
-  }
+  ]
 }
