@@ -1,65 +1,14 @@
 <template>
   <div class="card">
-    <div :class="{toast: true, active: isComplete}">
-      <span class="success" v-if="isSuccess">
-        送信が完了しました。
-      </span>
-      <span class="error" v-else>
-        送信に失敗しました。
-      </span>
-    </div>
-
-    <section style='text-align: center'>
+    <section style="text-align: center">
       mail@potato4d.me までご連絡ください。
     </section>
   </div>
 </template>
 
 <script>
-import axios from 'axios'
-import Vue from 'vue'
-
-if (process.browser) {
-  const Toast = require('vue-easy-toast')
-  Vue.use(Toast)
-}
-
 export default {
-  transition: 'card',
-  data () {
-    return {
-      isSend: false,
-      isComplete: false,
-      isSuccess: true,
-      name: '',
-      email: '',
-      body: ''
-    }
-  },
-  methods: {
-    doSend () {
-      this.isSend = true
-      const { name, email, body } = this
-      axios.post(
-        'https://8tqcgu7tvb.execute-api.ap-northeast-1.amazonaws.com/prod/contact',
-        {
-          name,
-          email,
-          body
-        }
-      )
-        .then((res) => {
-          this.isSend = false
-          this.isComplete = true
-          this.isSuccess = true
-        })
-        .catch(() => {
-          this.isSend = false
-          this.isComplete = true
-          this.isSuccess = false
-        })
-    }
-  }
+  transition: 'card'
 }
 </script>
 
