@@ -87,7 +87,7 @@
           <span class="link"><a href="https://connpassport.com/" target="_blank" rel="noopener" >https://connpassport.com/</a></span>
         </dd>
 
-        <dt>SeQueue - Nuxt.js / Ruby on Rails</dt>
+        <dt>SeQueue - Nuxt.js / Express(TypeORM,puppeteer,Vue SSR)</dt>
         <dd>
           <span>フリーランスのための請求書クラウド</span><br>
           <span class="link"><a href="https://sequeue.jp" target="_blank" rel="noopener" >https://sequeue.jp</a></span>
