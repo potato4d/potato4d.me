@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="main">
-      <header><img src="~/assets/icon.jpg" alt="" class="icon" /></header>
+      <header><img src="/real.png" alt="" class="icon" /></header>
 
       <div class="container">
         <div class="title">
@@ -23,7 +23,7 @@
 
     <footer>
       <a href="https://twitter.com/potato4d" target="_blank" rel="noopener">
-        <img src="~/assets/tweet.svg" alt="Twitter" width="30" />
+        <img src="/tweet.svg" alt="Twitter" width="30" />
       </a>
     </footer>
   </div>
