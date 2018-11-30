@@ -14,6 +14,13 @@
       <ul>
         <li>
           <span class="career-name"
+            >LINE<span class="carrer-history-sp">(18/12〜)</span></span
+          >
+          <span class="career-role">Frontend Engineer</span>
+          <span class="carrer-history">(18/12〜)</span>
+        </li>
+        <li>
+          <span class="career-name"
             >ElevenBack<span class="carrer-history-sp">(17/07〜)</span></span
           >
           <span class="career-role">代表</span>
