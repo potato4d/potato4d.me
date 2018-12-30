@@ -37,15 +37,6 @@
         </li>
         <li>
           <span class="career-name"
-            >GNEX ltd.<span class="carrer-history-sp"
-              >(17/01〜18/09)</span
-            ></span
-          >
-          <span class="career-role">エンジニア(subcontractor)</span>
-          <span class="carrer-history">(17/01〜18/09)</span>
-        </li>
-        <li>
-          <span class="career-name"
             >pixiv inc.<span class="carrer-history-sp"
               >(17/04〜17/07)</span
             ></span
