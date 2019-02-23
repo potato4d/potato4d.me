@@ -144,7 +144,7 @@
           >
         </dd>
 
-        <dt>Qiita Feed Gen - Express</dt>
+        <dt>Qiita Feed Gen - Next.js</dt>
         <dd>
           <span>Qiita private feed rss converter.</span><br />
           <span class="link"
