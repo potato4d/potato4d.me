@@ -3,10 +3,15 @@
     <section>
       <h1>Biography</h1>
       <p>
-        本名は花谷拓磨。大阪出身渋谷在住のWebエンジニア。<br />
-        Vue.jsやReact.jsをはじめとしたフロントエンドから、PHPによるサーバーサイド開発、デザインからライター業、はたまたITイベントでのお祭り男までオールマイティーに活動している賑やかしです。
+        本名は花谷拓磨。大阪出身、新宿で活動する Web エンジニア。<br />
+        Vue.js / Nuxt.js / React.js
+        による、高度なユーザー体験を提供するためのインタラクション設計と持続可能性を考えたアーキテクチャ設計を前提とした
+        SPA 開発、 PHP / Node.js によるバックエンド開発、 AWS や Firebase
+        のクラウドをフル活用したアプリケーション開発を得意としています。<br />
+        その他 Technical Writing, Web デザイン,
+        イベント運営なども得意としており、積極的に活動を行っています。
       </p>
-      <p><br />成果物は主にGitHubにてオープンソースで公開しています。</p>
+      <p><br />成果物は主に GitHub にてオープンソースで公開しています。</p>
     </section>
 
     <section>
@@ -16,7 +21,7 @@
           <span class="career-name"
             >LINE<span class="carrer-history-sp">(18/12〜)</span></span
           >
-          <span class="career-role">Frontend Engineer</span>
+          <span class="career-role">Engineer</span>
           <span class="carrer-history">(18/12〜)</span>
         </li>
         <li>
@@ -78,15 +83,19 @@
         </li>
         <li>
           <span class="community-name">Vue.js Japan User Group</span>
-          <span class="community-role">Staff</span>
+          <span class="community-role">Member</span>
         </li>
         <li>
           <span class="community-name">Vue.js Fes Japan 2018</span>
           <span class="community-role">Staff</span>
         </li>
         <li>
+          <span class="community-name">reactjs/ja.reactjs.org</span>
+          <span class="community-role">Primary Maintainer</span>
+        </li>
+        <li>
           <span class="community-name">vuejs/jp.vuejs.org</span>
-          <span class="community-role">Maintainer</span>
+          <span class="community-role">Primary Maintainer</span>
         </li>
         <li>
           <span class="community-name">WordBench Kyoto</span>
@@ -212,6 +221,20 @@ export default {
   computed: {
     activities() {
       return [
+        {
+          title:
+            '【登壇】持続可能なプロダクト開発のために - フロントエンドと新陳代謝の話',
+          source: 'HTML5 Conference 2018',
+          link:
+            'https://speakerdeck.com/potato4d/frontend-premised-on-making-changes'
+        },
+        {
+          title:
+            '【登壇】破綻しない Vue.js アプリケーション開発のために大切なこと',
+          source: 'JSLounge at UUUM',
+          link:
+            'https://speakerdeck.com/potato4d/how-to-make-a-robust-vue-dot-js-application'
+        },
         {
           title: '【執筆】Nuxt.js ビギナーズガイド',
           source: 'C&R研究所',
