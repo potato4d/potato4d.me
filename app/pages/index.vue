@@ -21,7 +21,7 @@
           <span class="career-name"
             >LINE<span class="carrer-history-sp">(18/12〜)</span></span
           >
-          <span class="career-role">Engineer</span>
+          <span class="career-role">エンジニア</span>
           <span class="carrer-history">(18/12〜)</span>
         </li>
         <li>
