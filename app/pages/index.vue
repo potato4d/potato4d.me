@@ -65,6 +65,14 @@
       <h1>Community &amp; Events &amp; OSS</h1>
       <ul>
         <li>
+          <span class="community-name">UIT Inside</span>
+          <span class="community-role">Podcaster and Director</span>
+        </li>
+        <li>
+          <span class="community-name">UIT#Event</span>
+          <span class="community-role">Co-Organizer</span>
+        </li>
+        <li>
           <span class="community-name">FRONTEND CONFERENCE 2017</span>
           <span class="community-role">Organizer</span>
         </li>
