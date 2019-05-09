@@ -21,7 +21,7 @@
           <span class="career-name"
             >LINE<span class="carrer-history-sp">(18/12〜)</span></span
           >
-          <span class="career-role">Engineer</span>
+          <span class="career-role">エンジニア</span>
           <span class="carrer-history">(18/12〜)</span>
         </li>
         <li>
@@ -64,6 +64,14 @@
     <section>
       <h1>Community &amp; Events &amp; OSS</h1>
       <ul>
+        <li>
+          <span class="community-name">UIT Inside</span>
+          <span class="community-role">Podcaster and Director</span>
+        </li>
+        <li>
+          <span class="community-name">UIT#Event</span>
+          <span class="community-role">Co-Organizer</span>
+        </li>
         <li>
           <span class="community-name">FRONTEND CONFERENCE 2017</span>
           <span class="community-role">Organizer</span>
