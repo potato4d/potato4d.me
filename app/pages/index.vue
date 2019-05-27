@@ -65,11 +65,11 @@
       <h1>Community &amp; Events &amp; OSS</h1>
       <ul>
         <li>
-          <span class="community-name">UIT Inside</span>
+          <span class="community-name">UIT INSIDE</span>
           <span class="community-role">Podcaster and Director</span>
         </li>
         <li>
-          <span class="community-name">UIT#Event</span>
+          <span class="community-name">UIT meetup</span>
           <span class="community-role">Co-Organizer</span>
         </li>
         <li>
@@ -106,6 +106,19 @@
     <section>
       <h1>Products</h1>
       <dl>
+        <dt>minimalytm</dt>
+        <dd>
+          <span>Desktop Application</span><br />
+          <span class="link"
+            ><a
+              href="https://www.minimalytm.app/"
+              target="_blank"
+              rel="noopener"
+              >https://www.minimalytm.app/</a
+            ></span
+          >
+        </dd>
+
         <dt>Internet programming - DTP Design / Writing</dt>
         <dd>
           <span>C94 Doujin book</span><br />
