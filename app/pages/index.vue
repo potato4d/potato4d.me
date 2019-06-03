@@ -97,8 +97,12 @@
           <span class="community-role">Primary Maintainer</span>
         </li>
         <li>
+          <span class="community-name">nuxt/docs</span>
+          <span class="community-role">Maintainer</span>
+        </li>
+        <li>
           <span class="community-name">WordBench Kyoto</span>
-          <span class="community-role">Moderator</span>
+          <span class="community-role">ex-Moderator</span>
         </li>
       </ul>
     </section>
