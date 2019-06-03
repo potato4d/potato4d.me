@@ -81,12 +81,12 @@
           <span class="community-role">Organizer</span>
         </li>
         <li>
-          <span class="community-name">Vue.js Japan User Group</span>
-          <span class="community-role">Member</span>
-        </li>
-        <li>
           <span class="community-name">Vue.js Fes Japan 2018</span>
           <span class="community-role">Staff</span>
+        </li>
+        <li>
+          <span class="community-name">Vue.js Japan User Group</span>
+          <span class="community-role">ex-Member</span>
         </li>
         <li>
           <span class="community-name">reactjs/ja.reactjs.org</span>
