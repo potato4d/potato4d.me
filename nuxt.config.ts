@@ -1,4 +1,6 @@
-export default {
+import NuxtConfiguration from '@nuxt/config'
+
+const config: NuxtConfiguration = {
   srcDir: 'app',
   /*
   ** Headers of the page
@@ -30,3 +32,5 @@ export default {
     '@nuxtjs/pwa'
   ]
 }
+
+export default config

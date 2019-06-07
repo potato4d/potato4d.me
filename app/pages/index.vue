@@ -231,12 +231,27 @@
   </div>
 </template>
 
-<script>
-export default {
+<script lang="ts">
+import Vue from 'vue'
+
+type Activity = {
+  title: string
+  source: string
+  show_link?: string
+  link: string
+}
+
+export default Vue.extend({
   transition: 'card',
   computed: {
     activities() {
-      return [
+      const data: Activity[] = [
+        {
+          title: '【査読】実践 TypeScript',
+          source: 'マイナビ出版',
+          show_link: 'https://www.amazon.co.jp/dp/483996937X/',
+          link: 'https://amzn.to/2XFb3Ba'
+        },
         {
           title:
             '【登壇】持続可能なプロダクト開発のために - フロントエンドと新陳代謝の話',
@@ -305,9 +320,10 @@ export default {
             'https://speakerdeck.com/potato4d/arayururen-falsetamefalsehurontoendo-number-frontkansai'
         }
       ]
+      return data
     }
   }
-}
+})
 </script>
 
 <style scoped>
