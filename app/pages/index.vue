@@ -64,11 +64,11 @@
       <h1>Community &amp; Events &amp; OSS</h1>
       <ul>
         <li>
-          <span class="community-name">UIT Inside</span>
+          <span class="community-name">UIT INSIDE</span>
           <span class="community-role">Podcaster and Director</span>
         </li>
         <li>
-          <span class="community-name">UIT#Event</span>
+          <span class="community-name">UIT meetup</span>
           <span class="community-role">Co-Organizer</span>
         </li>
         <li>
@@ -80,12 +80,12 @@
           <span class="community-role">Organizer</span>
         </li>
         <li>
-          <span class="community-name">Vue.js Japan User Group</span>
-          <span class="community-role">Member</span>
-        </li>
-        <li>
           <span class="community-name">Vue.js Fes Japan 2018</span>
           <span class="community-role">Staff</span>
+        </li>
+        <li>
+          <span class="community-name">Vue.js Japan User Group</span>
+          <span class="community-role">ex-Member</span>
         </li>
         <li>
           <span class="community-name">reactjs/ja.reactjs.org</span>
@@ -96,8 +96,12 @@
           <span class="community-role">Primary Maintainer</span>
         </li>
         <li>
+          <span class="community-name">nuxt/docs</span>
+          <span class="community-role">Maintainer</span>
+        </li>
+        <li>
           <span class="community-name">WordBench Kyoto</span>
-          <span class="community-role">Moderator</span>
+          <span class="community-role">ex-Moderator</span>
         </li>
       </ul>
     </section>
@@ -105,6 +109,19 @@
     <section>
       <h1>Products</h1>
       <dl>
+        <dt>minimalytm</dt>
+        <dd>
+          <span>Desktop Application</span><br />
+          <span class="link"
+            ><a
+              href="https://www.minimalytm.app/"
+              target="_blank"
+              rel="noopener"
+              >https://www.minimalytm.app/</a
+            ></span
+          >
+        </dd>
+
         <dt>Internet programming - DTP Design / Writing</dt>
         <dd>
           <span>C94 Doujin book</span><br />
@@ -213,12 +230,27 @@
   </div>
 </template>
 
-<script>
-export default {
+<script lang="ts">
+import Vue from 'vue'
+
+type Activity = {
+  title: string
+  source: string
+  show_link?: string
+  link: string
+}
+
+export default Vue.extend({
   transition: 'card',
   computed: {
     activities() {
-      return [
+      const data: Activity[] = [
+        {
+          title: '【査読】実践 TypeScript',
+          source: 'マイナビ出版',
+          show_link: 'https://www.amazon.co.jp/dp/483996937X/',
+          link: 'https://amzn.to/2XFb3Ba'
+        },
         {
           title:
             '【登壇】持続可能なプロダクト開発のために - フロントエンドと新陳代謝の話',
@@ -287,9 +319,10 @@ export default {
             'https://speakerdeck.com/potato4d/arayururen-falsetamefalsehurontoendo-number-frontkansai'
         }
       ]
+      return data
     }
   }
-}
+})
 </script>
 
 <style scoped>
