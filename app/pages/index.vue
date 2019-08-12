@@ -3,13 +3,12 @@
     <section>
       <h1>Biography</h1>
       <p>
-        本名は花谷拓磨。大阪出身、新宿で活動する Web エンジニア。<br />
+        本名は花谷拓磨。関西出身、新宿で活動する Web エンジニア。<br />
         Vue.js / Nuxt.js / React.js
         による、高度なユーザー体験を提供するためのインタラクション設計と持続可能性を考えたアーキテクチャ設計を前提とした
         SPA 開発、 PHP / Node.js によるバックエンド開発、 AWS や Firebase
         のクラウドをフル活用したアプリケーション開発を得意としています。<br />
-        その他 Technical Writing, Web デザイン,
-        イベント運営なども得意としており、積極的に活動を行っています。
+        その他、技術文書の執筆や Web デザイン、イベント運営なども得意としており、積極的に活動を行っています。
       </p>
       <p><br />成果物は主に GitHub にてオープンソースで公開しています。</p>
     </section>
@@ -21,14 +20,14 @@
           <span class="career-name"
             >LINE<span class="carrer-history-sp">(18/12〜)</span></span
           >
-          <span class="career-role">エンジニア</span>
+          <span class="career-role">Senior Front-End Engineer<br>Developer Relations</span>
           <span class="carrer-history">(18/12〜)</span>
         </li>
         <li>
           <span class="career-name"
             >ElevenBack<span class="carrer-history-sp">(17/07〜)</span></span
           >
-          <span class="career-role">代表</span>
+          <span class="career-role">President</span>
           <span class="carrer-history">(17/07〜)</span>
         </li>
         <li>
@@ -37,7 +36,7 @@
               >(18/03〜18/10)</span
             ></span
           >
-          <span class="career-role">エンジニア(subcontractor)</span>
+          <span class="career-role">Engineer(subcontractor)</span>
           <span class="carrer-history">(18/03〜18/10)</span>
         </li>
         <li>
@@ -46,7 +45,7 @@
               >(17/04〜17/07)</span
             ></span
           >
-          <span class="career-role">エンジニア</span>
+          <span class="career-role">Engineer</span>
           <span class="carrer-history">(17/04〜17/07)</span>
         </li>
         <li>
@@ -55,7 +54,7 @@
               >(16/04〜16/10)</span
             ></span
           >
-          <span class="career-role">エンジニア・マネージャ</span>
+          <span class="career-role">Engineer<br>Project Manager</span>
           <span class="carrer-history">(16/04〜16/10)</span>
         </li>
       </ul>
@@ -131,7 +130,7 @@
 
         <dt>SeQueue - Nuxt.js / Express(TypeORM,puppeteer,Vue SSR)</dt>
         <dd>
-          <span>フリーランスのための請求書クラウド</span><br />
+          <span>The invoice management for freelancer.</span><br />
           <span class="link"
             ><a href="https://sequeue.jp" target="_blank" rel="noopener"
               >https://sequeue.jp</a
@@ -308,7 +307,7 @@ export default {
 
 .card ul li {
   display: flex;
-  align-items: center;
+  align-items: stretch;
   justify-content: space-between;
   padding-left: 24px;
   position: relative;
@@ -332,6 +331,8 @@ export default {
 
 .card ul li .career-name {
   width: 100px;
+  display: block;
+  height: 100%;
 }
 
 .card ul li .career-role {
@@ -340,6 +341,10 @@ export default {
 
 .card ul li .carrer-history {
   width: 105px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 .card ul li .community-name {
