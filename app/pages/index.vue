@@ -155,9 +155,9 @@
           >
         </dd>
 
-        <dt>Contributter - Ruby on Rails</dt>
+        <dt>Contributter - Next.js / Firebase</dt>
         <dd>
-          <span>Let's tweet your contributions.</span><br />
+          <span>Notification of GitHub activity status to Twitter</span><br />
           <span class="link"
             ><a
               href="https://contributter.potato4d.me"
