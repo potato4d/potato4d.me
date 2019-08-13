@@ -157,7 +157,7 @@
 
         <dt>Contributter - Next.js / Firebase</dt>
         <dd>
-          <span>Notification of GitHub activity status to Twitter</span><br />
+          <span>Notification of GitHub activity status to Twitter.</span><br />
           <span class="link"
             ><a
               href="https://contributter.potato4d.me"
