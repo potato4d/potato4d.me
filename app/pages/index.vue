@@ -67,8 +67,8 @@
       <h1>Community &amp; Events &amp; OSS</h1>
       <ul>
         <li v-for="community in communities" :key="community.name">
-          <span class="community-name">{{community.name}}</span>
-          <span class="community-role">{{community.role}}</span>
+          <span class="community-name">{{ community.name }}</span>
+          <span class="community-role">{{ community.role }}</span>
         </li>
       </ul>
     </section>
