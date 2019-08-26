@@ -10,15 +10,6 @@
           <h1>Potato4d</h1>
           <p>NIGIYAKASHI</p>
         </div>
-
-        <nav>
-          <ul>
-            <li><router-link to="/" exact>ABOUT ME</router-link></li>
-            <li><router-link to="/accounts">ACCOUNTS</router-link></li>
-            <li><router-link to="/contact">CONTACT</router-link></li>
-          </ul>
-        </nav>
-
         <nuxt />
       </div>
     </div>
