@@ -1,3 +1,8 @@
+export type Community = {
+  name: string
+  role: string
+}
+
 export type Activity = {
   title: string
   source: string

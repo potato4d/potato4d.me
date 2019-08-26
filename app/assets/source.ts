@@ -1,4 +1,47 @@
-import { Activity, Product } from '../types'
+import { Activity, Product, Community } from '../types'
+
+export const communities: Community[] = [
+  {
+    name: 'UIT INSIDE',
+    role: 'Podcaster and Director'
+  },
+  {
+    name: 'UIT meetup',
+    role: 'Co-Organizer'
+  },
+  {
+    name: 'FRONTEND CONFERENCE 2017',
+    role: 'Organizer'
+  },
+  {
+    name: 'JSLounge',
+    role: 'Organizer'
+  },
+  {
+    name: 'Vue.js Fes Japan 2018',
+    role: 'Staff'
+  },
+  {
+    name: 'Vue.js Japan User Group',
+    role: 'ex-Member'
+  },
+  {
+    name: 'reactjs/ja.reactjs.org',
+    role: 'Primary Maintainer'
+  },
+  {
+    name: 'vuejs/jp.vuejs.org',
+    role: 'Primary Maintainer'
+  },
+  {
+    name: 'nuxt/docs',
+    role: 'Maintainer'
+  },
+  {
+    name: 'WordBench Kyoto',
+    role: 'ex-Moderator'
+  }
+]
 
 export const products: Product[] = [
   {

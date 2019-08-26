@@ -66,45 +66,9 @@
     <section>
       <h1>Community &amp; Events &amp; OSS</h1>
       <ul>
-        <li>
-          <span class="community-name">UIT INSIDE</span>
-          <span class="community-role">Podcaster and Director</span>
-        </li>
-        <li>
-          <span class="community-name">UIT meetup</span>
-          <span class="community-role">Co-Organizer</span>
-        </li>
-        <li>
-          <span class="community-name">FRONTEND CONFERENCE 2017</span>
-          <span class="community-role">Organizer</span>
-        </li>
-        <li>
-          <span class="community-name">JSLounge</span>
-          <span class="community-role">Organizer</span>
-        </li>
-        <li>
-          <span class="community-name">Vue.js Fes Japan 2018</span>
-          <span class="community-role">Staff</span>
-        </li>
-        <li>
-          <span class="community-name">Vue.js Japan User Group</span>
-          <span class="community-role">ex-Member</span>
-        </li>
-        <li>
-          <span class="community-name">reactjs/ja.reactjs.org</span>
-          <span class="community-role">Primary Maintainer</span>
-        </li>
-        <li>
-          <span class="community-name">vuejs/jp.vuejs.org</span>
-          <span class="community-role">Primary Maintainer</span>
-        </li>
-        <li>
-          <span class="community-name">nuxt/docs</span>
-          <span class="community-role">Maintainer</span>
-        </li>
-        <li>
-          <span class="community-name">WordBench Kyoto</span>
-          <span class="community-role">ex-Moderator</span>
+        <li v-for="community in communities" :key="community.name">
+          <span class="community-name">{{community.name}}</span>
+          <span class="community-role">{{community.role}}</span>
         </li>
       </ul>
     </section>
@@ -153,7 +117,7 @@
 
 <script lang="ts">
 import Vue from 'vue'
-import { activities, products } from '../assets/source'
+import { activities, products, communities } from '../assets/source'
 
 export default Vue.extend({
   transition: 'card',
@@ -163,6 +127,9 @@ export default Vue.extend({
     },
     products() {
       return products
+    },
+    communities() {
+      return communities
     }
   }
 })
