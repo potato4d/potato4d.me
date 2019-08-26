@@ -178,21 +178,6 @@ export default Vue.extend({
   src: url('/fonts/Makinas-Flat-5.otf');
 }
 
-.card-enter-active {
-  animation: card-in 0.4s;
-}
-
-@keyframes card-in {
-  0% {
-    transform: translate(0, 10px);
-    opacity: 0;
-  }
-  100% {
-    transform: translate(0, 0);
-    opacity: 1;
-  }
-}
-
 html {
   font-family: Makinas, 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
     'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;

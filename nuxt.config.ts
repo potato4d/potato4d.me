@@ -1,6 +1,6 @@
-import NuxtConfiguration from '@nuxt/config'
+import { Configuration } from '@nuxt/types'
 
-const config: NuxtConfiguration = {
+const config: Configuration = {
   srcDir: 'app',
   /*
   ** Headers of the page
@@ -30,6 +30,12 @@ const config: NuxtConfiguration = {
   */
   modules: [
     '@nuxtjs/pwa'
+  ],
+  buildModules: [
+    ['@nuxt/typescript-build', {
+      typeCheck: true,
+      ignoreNotFoundWarnings: true
+    }]
   ]
 }
 
