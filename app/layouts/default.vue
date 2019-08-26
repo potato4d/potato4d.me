@@ -1,7 +1,9 @@
 <template>
   <div>
     <div class="main">
-      <header><img src="https://github.com/potato4d.png" alt="" class="icon" /></header>
+      <header>
+        <img src="https://github.com/potato4d.png" alt="" class="icon" />
+      </header>
 
       <div class="container">
         <div class="title">

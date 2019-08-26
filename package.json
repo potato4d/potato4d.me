@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "nuxt",
     "generate": "nuxt generate",
-    "format": "prettier './app/**/*.{js,vue}' --write"
+    "format": "prettier './app/**/*.{js,ts,vue}' --write"
   },
   "dependencies": {
     "@nuxt/typescript": "^2.8.1",
