@@ -13,7 +13,8 @@
       </p>
       <p><br />成果物は主に GitHub にてオープンソースで公開しています。</p>
       <p>
-        連絡は mail@potato4d.me まで。
+        <br />
+        ご連絡は mail@potato4d.me まで。
       </p>
     </section>
 
