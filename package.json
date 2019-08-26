@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "nuxt-ts",
     "generate": "nuxt-ts generate",
-    "format": "prettier './app/**/*.{js,ts,vue}' --write"
+    "format": "prettier './**/*.{js,ts,vue}' --write"
   },
   "dependencies": {
     "@nuxt/typescript-runtime": "^0.1.3",

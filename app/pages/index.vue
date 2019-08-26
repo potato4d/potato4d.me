@@ -25,9 +25,7 @@
             <p>
               <br />成果物は主に GitHub にてオープンソースで公開しています。
             </p>
-            <p>
-              <br />ご連絡は mail@potato4d.me まで。
-            </p>
+            <p><br />ご連絡は mail@potato4d.me まで。</p>
           </section>
 
           <section>
@@ -96,7 +94,9 @@
             <h1>Products</h1>
             <dl>
               <template v-for="product in products">
-                <dt :key="product.title + 'name'">{{ product.title }} - {{ product.stack }}</dt>
+                <dt :key="product.title + 'name'">
+                  {{ product.title }} - {{ product.stack }}
+                </dt>
                 <dd :key="product.title + 'detail'">
                   <template v-if="product.about">
                     <span>{{ product.about }}</span>
@@ -104,9 +104,7 @@
                   </template>
                   <span class="link">
                     <a :href="product.link_url" target="_blank" rel="noopener">
-                      {{
-                      product.url
-                      }}
+                      {{ product.url }}
                     </a>
                   </span>
                 </dd>
@@ -123,11 +121,9 @@
                   <span>{{ activity.source }}</span>
                   <br />
                   <span class="link">
-                    <a
-                      :href="activity.link"
-                      target="_blank"
-                      rel="noopener"
-                    >{{ activity.show_link || activity.link }}</a>
+                    <a :href="activity.link" target="_blank" rel="noopener">{{
+                      activity.show_link || activity.link
+                    }}</a>
                   </span>
                 </dd>
               </template>
@@ -165,7 +161,6 @@ export default Vue.extend({
 </script>
 
 <style>
-
 @font-face {
   font-family: Makinas;
   font-style: normal;
