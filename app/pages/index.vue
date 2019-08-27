@@ -7,7 +7,7 @@
 
       <div class="container">
         <div class="title">
-          <h1>Potato4d</h1>
+          <h1>potato4d</h1>
           <p>NIGIYAKASHI</p>
         </div>
         <div class="card">

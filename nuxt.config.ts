@@ -16,7 +16,7 @@ const config: Configuration = {
       {
         hid: 'description',
         name: 'description',
-        content: 'HANATANI Takuma a.k.a. Potato4d'
+        content: 'HANATANI Takuma a.k.a. potato4d'
       },
       { name: 'theme-color', content: '#f06a6a' }
     ],
