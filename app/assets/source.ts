@@ -75,7 +75,7 @@ export const products: Product[] = [
   {
     title: 'minimalytm',
     about: 'Desktop application',
-    stack: 'Electron / TypeScript',
+    stack: 'Electron(TypeScript)',
     url: 'https://www.minimalytm.app',
     link_url: 'https://www.minimalytm.app'
   },
@@ -88,28 +88,28 @@ export const products: Product[] = [
   {
     title: 'connpassport',
     about: 'Unofficial connpass mobile acceptance system.',
-    stack: 'Nuxt.js / AWS Lambda',
+    stack: 'Vue(Nuxt.js) / AWS Lambda',
     url: 'https://connpassport.com/',
     link_url: 'https://connpassport.com/'
   },
   {
     title: 'SeQueue',
     about: 'The invoice management for freelancer.',
-    stack: 'Nuxt.js / Express(TypeORM,puppeteer,Vue SSR)',
+    stack: 'Vue(Nuxt.js) / Express(TypeORM,puppeteer,Vue SSR)',
     url: 'https://sequeue.jp',
     link_url: 'https://sequeue.jp'
   },
   {
     title: 'Contributter',
     about: 'Notification of GitHub activity status to Twitter.',
-    stack: 'Next.js / Firebase',
+    stack: 'React(Next.js) / Firebase',
     url: 'https://contributter.potato4d.me',
     link_url: 'https://contributter.potato4d.me'
   },
   {
     title: 'Qiita Feed Gen',
     about: 'Qiita private feed rss converter.',
-    stack: 'Next.js',
+    stack: 'Vue(Nuxt.js)',
     url: 'https://qiita-feed-gen.potato4d.me',
     link_url: 'https://qiita-feed-gen.potato4d.me'
   },
