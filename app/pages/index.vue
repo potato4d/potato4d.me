@@ -31,51 +31,13 @@
           <section>
             <h1>Career</h1>
             <ul>
-              <li>
+              <li v-for="career in careeres">
                 <span class="career-name">
-                  LINE
-                  <span class="carrer-history-sp">(18/12〜)</span>
+                  {{ career.title }}
+                  <span class="carrer-history-sp">({{ career.range }})</span>
                 </span>
-                <span class="career-role">
-                  Senior Front-End Engineer
-                  <br />Developer Relations
-                </span>
-                <span class="carrer-history">(18/12〜)</span>
-              </li>
-              <li>
-                <span class="career-name">
-                  ElevenBack
-                  <span class="carrer-history-sp">(17/07〜)</span>
-                </span>
-                <span class="career-role">President</span>
-                <span class="carrer-history">(17/07〜)</span>
-              </li>
-              <li>
-                <span class="career-name">
-                  Increments inc.
-                  <span class="carrer-history-sp">(18/03〜18/10)</span>
-                </span>
-                <span class="career-role">Engineer(subcontractor)</span>
-                <span class="carrer-history">(18/03〜18/10)</span>
-              </li>
-              <li>
-                <span class="career-name">
-                  pixiv inc.
-                  <span class="carrer-history-sp">(17/04〜17/07)</span>
-                </span>
-                <span class="career-role">Engineer</span>
-                <span class="carrer-history">(17/04〜17/07)</span>
-              </li>
-              <li>
-                <span class="career-name">
-                  SCOUTER inc.
-                  <span class="carrer-history-sp">(16/04〜16/10)</span>
-                </span>
-                <span class="career-role">
-                  Engineer
-                  <br />Project Manager
-                </span>
-                <span class="carrer-history">(16/04〜16/10)</span>
+                <span class="career-role" v-html="career.role"> </span>
+                <span class="carrer-history">({{ career.range }})</span>
               </li>
             </ul>
           </section>
@@ -143,7 +105,7 @@
 
 <script lang="ts">
 import Vue from 'vue'
-import { activities, products, communities } from '../assets/source'
+import { activities, products, communities, careeres } from '../assets/source'
 
 export default Vue.extend({
   computed: {
@@ -155,6 +117,9 @@ export default Vue.extend({
     },
     communities() {
       return communities
+    },
+    careeres() {
+      return careeres
     }
   }
 })

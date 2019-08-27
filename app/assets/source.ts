@@ -1,4 +1,32 @@
-import { Activity, Product, Community } from '../types'
+import { Activity, Product, Community, Career } from '../types'
+
+export const careeres: Career[] = [
+  {
+    title: 'LINE Corp.',
+    range: '18/12〜',
+    role: 'Senior Front-End Engineer <br />Developer Relations'
+  },
+  {
+    title: 'ElevenBack',
+    range: '17/07〜',
+    role: 'President'
+  },
+  {
+    title: 'Increments inc.',
+    range: '18/03〜18/10',
+    role: 'Engineer(subcontractor)'
+  },
+  {
+    title: 'pixiv inc.',
+    range: '17/04〜17/07',
+    role: 'Engineer'
+  },
+  {
+    title: 'SCOUTER inc.',
+    range: '16/04〜17/12',
+    role: 'Engineer(subcontractor)<br>Engineer<br>Designer<br>Project Manager'
+  }
+]
 
 export const communities: Community[] = [
   {
