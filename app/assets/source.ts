@@ -2,6 +2,11 @@ import { Activity, Product, Community, Career } from '../types'
 
 export const careeres: Career[] = [
   {
+    title: 'ElevenBack LLC.',
+    range: '19/09〜',
+    role: 'CEO'
+  },
+  {
     title: 'LINE Corp.',
     range: '18/12〜',
     role: 'Senior Front-End Engineer <br />Developer Relations'
