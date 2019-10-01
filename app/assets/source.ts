@@ -136,10 +136,25 @@ export const products: Product[] = [
 
 export const activities: Activity[] = [
   {
+    title: '【登壇】Amplify Console 誕生以来本番運用しつづけてわかったこと',
+    source: 'awswakaran.tokyo #2',
+    link: 'https://speakerdeck.com/potato4d/amplify-console-dan-sheng-yi-lai-ben-fan-yun-yong-situduketewakatutakoto-number-awswakaran-tokyo'
+  },
+  {
+    title: '【登壇】エンジニアキャリアにおける焦燥感との向き合い方',
+    source: 'Battle Conference Under 30',
+    link: 'https://speakerdeck.com/potato4d/number-bcu30-engineer-career'
+  },
+  {
     title: '【査読】実践 TypeScript',
     source: 'マイナビ出版',
     show_link: 'https://www.amazon.co.jp/dp/483996937X/',
     link: 'https://amzn.to/2XFb3Ba'
+  },
+  {
+    title: '【登壇】体験と設計 フロントエンドエンジニアの二つの責務について',
+    source: 'Frontend de KANPAI!',
+    link: 'https://speakerdeck.com/potato4d/ti-yan-toshe-ji-hurontoendoenziniafalseer-tufalseze-wu-nituite-number-frokan'
   },
   {
     title:
