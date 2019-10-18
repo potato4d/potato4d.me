@@ -8,7 +8,6 @@
       <div class="container">
         <div class="title">
           <h1>potato4d</h1>
-          <p>NIGIYAKASHI</p>
         </div>
         <div class="card">
           <section>
