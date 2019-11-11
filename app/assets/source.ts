@@ -136,6 +136,11 @@ export const products: Product[] = [
 
 export const activities: Activity[] = [
   {
+    title: '【登壇】私たちはなぜ SPA で開発するのか',
+    source: 'FRONTEND CONFERENCE 2019',
+    link: 'https://speakerdeck.com/potato4d/why-you-choose-spa'
+  },
+  {
     title: '【登壇】Amplify Console 誕生以来本番運用しつづけてわかったこと',
     source: 'awswakaran.tokyo #2',
     link: 'https://speakerdeck.com/potato4d/amplify-console-dan-sheng-yi-lai-ben-fan-yun-yong-situduketewakatutakoto-number-awswakaran-tokyo'
@@ -146,7 +151,7 @@ export const activities: Activity[] = [
     link: 'https://speakerdeck.com/potato4d/number-bcu30-engineer-career'
   },
   {
-    title: '【査読】実践 TypeScript',
+    title: '【レビュー】実践 TypeScript',
     source: 'マイナビ出版',
     show_link: 'https://www.amazon.co.jp/dp/483996937X/',
     link: 'https://amzn.to/2XFb3Ba'
