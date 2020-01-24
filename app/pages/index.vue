@@ -263,7 +263,7 @@ nav ul li a.nuxt-link-active {
 
 .card {
   margin: 20px 0;
-  padding: 10px;
+  padding: 16px;
   background: #fff;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
 }
