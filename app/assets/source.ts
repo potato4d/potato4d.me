@@ -35,6 +35,18 @@ export const careeres: Career[] = [
 
 export const communities: Community[] = [
   {
+    name: 'NestJS Japan Users Group',
+    role: 'Co-Organizer'
+  },
+  {
+    name: 'UIT meetup Fukuoka',
+    role: 'Co-Organizer'
+  },
+  {
+    name: 'awswakaran.tokyo',
+    role: 'Co-Organizer'
+  },
+  {
     name: 'UIT INSIDE',
     role: 'Podcaster and Director'
   },
