@@ -13,7 +13,7 @@ export const careeres: Career[] = [
   },
   {
     title: 'ElevenBack',
-    range: '17/07〜',
+    range: '17/07〜19/12',
     role: 'President'
   },
   {
