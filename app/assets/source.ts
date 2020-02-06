@@ -17,9 +17,9 @@ export const careeres: Career[] = [
     role: 'UI Designer'
   },
   {
-    title: 'ElevenBack',
+    title: 'Freelance',
     range: '17/07〜19/12',
-    role: 'President'
+    role: ''
   },
   {
     title: 'Increments inc.',
