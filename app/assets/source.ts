@@ -90,6 +90,13 @@ export const communities: Community[] = [
 
 export const products: Product[] = [
   {
+    title: 'みんなの63',
+    about: '画像解析でつながるポケモン対戦投稿サイト',
+    stack: 'Nuxt.js / Tailwind / Firebase / Cloud Run',
+    url: 'https://pokedri.com/pokemon63/',
+    link_url: 'https://pokedri.com/pokemon63/'
+  },
+  {
     title: 'minimalytm',
     about: 'Desktop application',
     stack: 'Electron(TypeScript)',
