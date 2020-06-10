@@ -160,6 +160,16 @@ export const products: Product[] = [
 
 export const activities: Activity[] = [
   {
+    title: '【登壇】Firebase & Google Cloud によるサーバーレス帳票管理',
+    source: 'Firebase Meetup #15',
+    link: 'https://speakerdeck.com/potato4d/serverless-architecture-in-candy'
+  },
+  {
+    title: '【登壇】What is NestJS?',
+    source: 'NestJS meetup Tokyo #1',
+    link: 'https://speakerdeck.com/potato4d/what-is-nestjs-number-nestjs-meetup'
+  },
+  {
     title: '【登壇】私たちはなぜ SPA で開発するのか',
     source: 'FRONTEND CONFERENCE 2019',
     link: 'https://speakerdeck.com/potato4d/why-you-choose-spa'
