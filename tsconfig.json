@@ -1,12 +1,12 @@
 {
   "compilerOptions": {
-    "target": "esnext",
-    "module": "esnext",
-    "moduleResolution": "node",
+    "target": "ES2018",
+    "module": "ESNext",
+    "moduleResolution": "Node",
     "lib": [
-      "esnext",
-      "esnext.asynciterable",
-      "dom"
+      "ESNext",
+      "ESNext.AsyncIterable",
+      "DOM"
     ],
     "esModuleInterop": true,
     "allowJs": true,
@@ -16,10 +16,10 @@
     "baseUrl": ".",
     "paths": {
       "~/*": [
-        "./app/*"
+        "./src/*"
       ],
       "@/*": [
-        "./app/*"
+        "./src/*"
       ]
     },
     "types": [

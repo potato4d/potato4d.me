@@ -1,14 +1,14 @@
-import { Configuration } from '@nuxt/types'
+import { NuxtConfig } from '@nuxt/types'
 
-const config: Configuration = {
-  srcDir: 'app',
+const config: NuxtConfig = {
+  srcDir: 'src',
   /*
    ** Headers of the page
    */
   head: {
     title: 'potato4d.me',
     htmlAttrs: {
-      lang: 'ja'
+      lang: 'ja',
     },
     meta: [
       { charset: 'utf-8' },
@@ -16,14 +16,14 @@ const config: Configuration = {
       {
         hid: 'description',
         name: 'description',
-        content: 'HANATANI Takuma a.k.a. potato4d'
+        content: 'HANATANI Takuma a.k.a. potato4d',
       },
-      { name: 'theme-color', content: '#f06a6a' }
+      { name: 'theme-color', content: '#f06a6a' },
     ],
     link: [
       { rel: 'manifest', href: '/manifest.json' },
-      { rel: 'icon', type: 'image/png', href: '/favicon.png' }
-    ]
+      { rel: 'icon', type: 'image/png', href: '/favicon.png' },
+    ],
   },
   /*
    ** Customize the progress-bar color
@@ -38,10 +38,10 @@ const config: Configuration = {
       '@nuxt/typescript-build',
       {
         typeCheck: true,
-        ignoreNotFoundWarnings: true
-      }
-    ]
-  ]
+        ignoreNotFoundWarnings: true,
+      },
+    ],
+  ],
 }
 
 export default config

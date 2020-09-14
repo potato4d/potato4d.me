@@ -12,4 +12,4 @@ dist
 
 # SW
 
-static/sw.js
+src/static/sw.js

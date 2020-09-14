@@ -129,8 +129,8 @@ export default Vue.extend({
     },
     careeres() {
       return careeres
-    }
-  }
+    },
+  },
 })
 </script>
 
