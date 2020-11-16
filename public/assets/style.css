@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+  color: #222;
+  font-family: Arial;
+  font-size: 16px;
+  overflow-x: hidden;
+}
+
+.background {
+  width: 200vw;
+  height: 50vw;
+  transform: rotate(-25deg);
+  position: absolute;
+  left: -50vw;
+  top: -20vw;
+  background: #f9f9f9;
+  content: '';
+  display: block;
+  z-index: 1;
+}
+
+.container {
+  max-width: 768px;
+  padding: 24px 16px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 10;
+}
+
+.container h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 1.1rem;
+}
+
+.profile {
+  display: flex;
+}
+
+.profile > img {
+  min-width: 120px;
+  max-width: 120px;
+  min-height: 120px;
+  max-height: 120px;
+  margin-right: 16px;
+  border-radius: 2px;
+}
+
+.profile ol {
+  list-style: none;
+  margin: 14px 0 0;
+  padding: 0;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.profile ol li:before {
+  content: '-';
+  margin-right: 8px;
+  display: inline-block;
+}
+
+.profile ul {
+  list-style: none;
+  margin: 6px 0 0;
+  padding: 0;
+  display: flex;
+}
+
+.profile ul li img {
+  margin-right: 8px;
+}
+
+.about {
+  line-height: 2;
+  margin-top: 32px;
+}
+
+main section {
+  margin-top: 48px;
+}
+
+main section h1 {
+  display: flex;
+  align-items: center;
+}
+
+main section h1 span {
+  display: inline-block;
+}
+
+main section h1:after {
+  height: 1px;
+  background: #cceeff;
+  content: '';
+  flex: 1;
+  margin-left: 16px;
+}
+
+main section dl div {
+  margin-top: 16px;
+  margin-bottom: 48px;
+}
+
+main section dl dt {
+  display: flex;
+  align-items: center;
+}
+
+main section dl img {
+  margin-right: 16px;
+}
+
+main section dl dd {
+  color: #444;
+  margin: 0;
+  padding: 0;
+  line-height: 2.0;
+}
+
+main section ul {
+  list-style: none;
+  margin: 16px 0 0;
+  padding: 0;
+  font-size: 0.9rem;
+  line-height: 2;
+}
+
+main section ul li:before {
+  content: '-';
+  margin-right: 8px;
+  display: inline-block;
+}
+
+a {
+  color: #3E8CFF;
+}
