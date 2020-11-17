@@ -27,7 +27,8 @@ html, body {
 }
 
 .container {
-  max-width: 768px;
+  width: 768px;
+  max-width: 100%;
   padding: 24px 16px;
   margin: 0 auto;
   position: relative;
