@@ -1,4 +1,19 @@
+@font-face {
+  font-family: 'LINE Seed';
+  font-weight: normal;
+  font-style: normal;
+  src: url('/assets/LINESeedSans_W_Rg.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'LINE Seed';
+  font-weight: bold;
+  font-style: normal;
+  src: url('/assets/LINESeedSans_W_Bd.woff') format('woff');
+}
+
 * {
+  font-family: 'LINE Seed';
   box-sizing: border-box;
 }
 
